@@ -6,9 +6,16 @@ namespace ExplodingKittens.API.Base.Classes.Abstraction
     {
         public IHand Hand { get; private set; }
 
-        public IEffect DoTurn(ICard cardForTurn, IDeck deck)
+        public IPlayerAction DoTurn(ICard cardForTurn, IDeck deck, IPlayer nextPlayer)
         {
-            GetFromDeck(deck);
+            if(cardForTurn.Effect != null)
+                GetFromDeck(deck);
+            return EndTurn(nextPlayer);
+        }
+
+        public IPlayerAction EndTurn(IPlayer nextPlayer)
+        {
+            throw new NotImplementedException();
         }
 
         public void GetFromDeck(IDeck deck)

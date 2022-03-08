@@ -1,7 +1,7 @@
 ﻿namespace ExplodingKittens.API.Base.Interfaces
 {
-    internal interface IDoTurn
+    internal interface IDoTurn : IPlayerAction
     {
-        IEffect DoTurn(ICard cardForTurn, IDeck deck);
+        IPlayerAction DoTurn(ICard cardForTurn, IDeck deck, IPlayer nextPlayer);
     }
 }
