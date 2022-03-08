@@ -3,6 +3,6 @@
     internal interface IEffect
     {
         string Description { get; }
-        void Effect();
+        void GetEffect();
     }
 }
