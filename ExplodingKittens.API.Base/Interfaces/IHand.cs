@@ -1,7 +1,7 @@
 ﻿namespace ExplodingKittens.API.Base.Interfaces
 {
-    internal interface ICard : IDescription
+    internal interface IHand
     {
-        
+        List<ICard> Hand { get; }
     }
 }
