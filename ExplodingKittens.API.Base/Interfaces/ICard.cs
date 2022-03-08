@@ -1,6 +1,6 @@
 ﻿namespace ExplodingKittens.API.Base.Interfaces
 {
-    internal interface ICard : IDescription
+    public interface ICard : IDescription
     {
         
     }

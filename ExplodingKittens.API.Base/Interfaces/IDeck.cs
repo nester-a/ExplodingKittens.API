@@ -1,6 +1,6 @@
 ﻿namespace ExplodingKittens.API.Base.Interfaces
 {
-    internal interface IDeck
+    public interface IDeck
     {
         Stack<ICard> ThisDeck { get; }
     }

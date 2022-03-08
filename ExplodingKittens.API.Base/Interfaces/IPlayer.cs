@@ -1,6 +1,6 @@
 ﻿namespace ExplodingKittens.API.Base.Interfaces
 {
-    internal interface IPlayer : IHand
+    public interface IPlayer : IHand
     {
         void GetCardFromDeck(IDeck deck);
     }

@@ -2,7 +2,7 @@
 
 namespace ExplodingKittens.API.Base.Classes
 {
-    internal class Deck : IDeck
+    public class Deck : IDeck
     {
         public Stack<ICard> ThisDeck {get; private set;}
         public Deck(params ICard[] cards)

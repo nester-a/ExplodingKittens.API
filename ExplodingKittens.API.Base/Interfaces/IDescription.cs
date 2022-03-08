@@ -1,6 +1,6 @@
 ﻿namespace ExplodingKittens.API.Base.Interfaces
 {
-    internal interface IDescription
+    public interface IDescription
     {
         string Description { get; }
     }

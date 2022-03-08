@@ -2,7 +2,7 @@
 
 namespace ExplodingKittens.API.Base.Classes
 {
-    internal class Card : ICard
+    public class Card : ICard
     {
         public string Description {get; private set;}
         public Card(string description)

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplodingKittens.API.Base", "ExplodingKittens.API.Base\ExplodingKittens.API.Base.csproj", "{668CA659-2620-4362-8D25-966B9A40B299}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplodingKittens.API.Tests", "ExplodingKittens.API.Tests\ExplodingKittens.API.Tests.csproj", "{2DF0E059-B251-4DB9-A19A-35C8A549D0EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{668CA659-2620-4362-8D25-966B9A40B299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{668CA659-2620-4362-8D25-966B9A40B299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{668CA659-2620-4362-8D25-966B9A40B299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF0E059-B251-4DB9-A19A-35C8A549D0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF0E059-B251-4DB9-A19A-35C8A549D0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF0E059-B251-4DB9-A19A-35C8A549D0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF0E059-B251-4DB9-A19A-35C8A549D0EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
